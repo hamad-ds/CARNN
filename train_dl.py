@@ -170,8 +170,8 @@ if __name__ == "__main__":
     parser.add_argument("--use_date", type=int, default=0)
     parser.add_argument("--use_trends", type=int, default=0)
     parser.add_argument("--task_mode", type=int, default=1, help="0-->2,1 - 1-->2,10")
-    parser.add_argument("--epochs", type=int, default=1)
-    parser.add_argument("--gpu_num", type=int, default=0)
+    parser.add_argument("--epochs", type=int, default=30)
+    parser.add_argument("--gpu_num", type=int, default=2)
 
     # wandb arguments
     parser.add_argument("--use_wandb", type=bool, default=False)
