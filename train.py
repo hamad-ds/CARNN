@@ -66,6 +66,7 @@ def run(args):
         demand,
         local_savepath=os.path.join(args.dataset_path, visuelle_pt_test)
     )
+    print(testset)
 
     # # If you wish to debug with less data you can use this syntax
     # trainset = torch.utils.data.Subset(trainset, list(range(1000)))
